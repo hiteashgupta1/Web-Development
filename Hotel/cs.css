@@ -1,0 +1,22 @@
+*{
+	text-align: center;
+}
+h3{
+	background-color: darkgray;
+	margin: 15px;
+	padding: 15px;
+	font-size: 25px;
+	font-style: italic;
+}
+p{
+	font-size: 15px;
+}
+
+button{
+	background-color: lightblue;
+	margin: 15px;
+	font-size: 20px;
+}
+fo-1{
+	
+}

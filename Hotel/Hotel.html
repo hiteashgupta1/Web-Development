@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script language="JavaScript">
+	function showInput() {
+		document.getElementById('display').innerHTML = document.getElementById("user_input").value;
+	}
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hotel Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="cs.css">
+</head>
+<body>
+	<h1> Hotel Registration Form</h1>
+
+	<h3> Customer Info</h3>
+	<form class="fo-1">
+		<label>Customer Name</label>
+		<input type="text" name="Customer name" size="15" id="user_input"> <br>
+		<label>Check in Date</label>
+		<input type="Date" name="Date" size="10" id="user_input"> <br>
+		<label>Total No of Days</label>
+		<input type="" name="Enter No of Days" size="10" id="user_input"> <br>
+		<label>Total No of Persons</label>
+		<input type="" name="" id="user_input">
+	<h3>Select Room Type</h3>
+		<img src="https://1drv.ms/i/c/34ef75e450307bb4/Ebm2br2VbsdDqnaWg0A6AVUB4cU3KFkiaXbbscOJh6nvOg?e=GIpfk9">
+		<label>Delux Room</label>
+		<input type="checkbox" name="" id="user_input">
+		<p> Delux Room Price: 2500/-</p><br>
+		<img src="https://1drv.ms/i/c/34ef75e450307bb4/ESnpvnsQGeJDnDHo9CFq2uMBbH5AoZHFd-UZCwPOuACutA?e=A305hk">
+		<label>Suite Room</label>
+		<input type="checkbox" name="" id="user_input">
+		<p> Suite Room Price: 4000/-</p>
+
+		<h3>Select Amenities</h3>
+
+		<label>A/C</label>
+		<input type="checkbox" name="" id="user_input">
+		<p>Cost: 1000/-</p><br>
+		<label>Locker</label>
+		<input type="checkbox" name="" id="user_input">
+		<p> Cost: 300/-</p>
+		<h3>Advance Amount</h3>
+		<label>Advance Amount</label>
+		<input type="" name="" id="user_input">
+	</form>
+	<br>
+	
+
+	<input type="submit" onclick="showInput();"> <br>
+	
+	<p><span id="display"></span></p>
+
+
+
+</body>
+
+</html>
